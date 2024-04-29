@@ -4,7 +4,7 @@
 This Python script provides a solution to the lock boxes puzzle. The lock boxes
 puzzle involves a set of sequentially numbered boxes, where each box may
 contain keys to other boxes. The goal is to determine if it's possible to
-unlock all boxes, starting from an initially unlocked box.
+unlock all boxes, starting from an initially unlocked box. 🧩
 
 ## File Structure
 - **lock_boxes_solver.py**: This Python script contains the implementation of
@@ -14,7 +14,7 @@ functionality.
 
 ## Functions
 
-### `look_next_opened_box(opened_boxes)`
+### `look_next_opened_box(opened_boxes)` 🔒
 This function looks for the next opened box in a dictionary containing
 information about already opened boxes.
 
@@ -25,16 +25,16 @@ opened boxes.
 **Returns:**
 - A list of keys contained in the opened box.
 
-### `canUnlockAll(boxes)`
+### `canUnlockAll(boxes)` 📦🔓
 This function checks if all boxes can be opened.
 
 **Parameters:**
 - `boxes` (list): A list containing all the boxes with the keys.
 
 **Returns:**
-- True if all boxes can be opened, otherwise False.
+- True if all boxes can be opened, otherwise False. 🎉
 
-### `main()`
+### `main()` 🚀
 This function serves as the entry point for the script.
 
 ## Implementation Details
@@ -60,7 +60,8 @@ To use the lock boxes puzzle solver, simply call the `canUnlockAll` function
 with a list of boxes as input.
 
 Example usage:
-```python
+```
 canUnlockAll([[1], [2], [3], [0]])
+```
 
 
