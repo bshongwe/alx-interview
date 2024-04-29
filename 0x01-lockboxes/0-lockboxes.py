@@ -11,9 +11,9 @@ def look_next_opened_box(opened_boxes):
     """
     for index, box in opened_boxes.items():
         if box.get('status') == 'opened':
-            box['status'] = 'opened/checked' # Mark box as checked
-            return box.get('keys') # Keys for opened box
-    return None # If all boxes have been opened
+            box['status'] = 'opened/checked'
+            return box.get('keys')
+    return None
 
 
 def canUnlockAll(boxes):
