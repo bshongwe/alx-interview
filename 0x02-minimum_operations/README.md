@@ -1,6 +1,4 @@
 # 0x02. Minimum Operations
-
-# 0x02. Minimum Operations
 🔍 `Algorithm` 🐍 `Python`
 
 For this project, you will need to understand several key algorithmic and
