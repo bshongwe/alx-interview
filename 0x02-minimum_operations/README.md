@@ -71,7 +71,7 @@ exactly n H characters in the file.
 
 **Repo:**
 
-- **GitHub repository:** [alx-interview](https://github.com/username/alx-interview) 📂
+- **GitHub repository:** [alx-interview](https://github.com/bshongwe/alx-interview) 📂
 - **Directory:** 0x02-minimum_operations
 - **File:** 0-minoperations.py
 
