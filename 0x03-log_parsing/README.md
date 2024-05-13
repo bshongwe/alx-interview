@@ -34,6 +34,7 @@ sizes.
 processing.
 - [Python Exceptions](https://docs.python.org/3/tutorial/errors.html)
 <br></br>
+
 By studying these concepts and utilizing the resources provided, you will be
 well-prepared to tackle the log parsing project, effectively handling data
 streams, parsing log entries, and computing metrics based on the processed
