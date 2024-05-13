@@ -8,45 +8,43 @@ data in a specific format, and performing calculations based on the input data.
 Here’s a list of concepts and resources that you might find useful:
 
 ## Concepts Needed:
-
 ### File I/O in Python 📄:
 - Understand how to read from `sys.stdin` line by line.
 - [Python Input and Output](https://docs.python.org/3/tutorial/inputoutput.html)
-
+<br></br>
 ### Signal Handling in Python ⚠️:
 - Handling keyboard interruption (CTRL + C) using signal handling in Python.
 - [Python Signal Handling](https://docs.python.org/3/library/signal.html)
-
+<br></br>
 ### Data Processing 🛠️:
 - Parsing strings to extract specific data points.
 - Aggregating data to compute summaries.
-
+<br></br>
 ### Regular Expressions 🧵:
 - Using regular expressions to validate the format of each line.
 - [Python Regular Expressions](https://docs.python.org/3/library/re.html)
-
+<br></br>
 ### Dictionaries in Python 📚:
 - Using dictionaries to count occurrences of status codes and accumulate file
 sizes.
 - [Python Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
-
+<br></br>
 ### Exception Handling ⚠️:
 - Handling possible exceptions that may arise during file reading and data
 processing.
 - [Python Exceptions](https://docs.python.org/3/tutorial/errors.html)
-
+<br></br>
 By studying these concepts and utilizing the resources provided, you will be
 well-prepared to tackle the log parsing project, effectively handling data
 streams, parsing log entries, and computing metrics based on the processed
 data.
+<br></br>
 
 ## Additional Resources
 - [Mock Technical Interview](https://www.hackerrank.com/interview/interview-preparation-kit)
-
+<br></br>
 ## Requirements
-
 ### General
-
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using
 `python3` (version 3.4.3)
@@ -56,9 +54,10 @@ data.
 - Your code should use the PEP 8 style (version 1.7.x)
 - All your files must be executable
 - The length of your files will be tested using `wc`
+<br></br>
 
 # Tasks📋
-## Task 0. Log parsing
+### Task 0. Log parsing
 `mandatory` </br>
 Write a script that reads stdin line by line and computes metrics:
 -	Input format: <IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size> (if the format is not this one, the line must be skipped)
@@ -72,19 +71,18 @@ Write a script that reads stdin line by line and computes metrics:
 		-	status codes should be printed in ascending order
 <b>Warning:</b> In this sample, you will have random value - it’s normal to not have the same output as this one.
 <br></br>
+
 ## Tests
 ### Edge Test File
 ```
 0-generator.py
 ```
 <br></br>
-
 ### Edge Test Command
 ```
 ./0-generator.py | ./0-stats.py
 ```
 <br></br> 
-
 Repo:
 ```
 GitHub repository: alx-interview
