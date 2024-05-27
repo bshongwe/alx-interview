@@ -3,11 +3,12 @@
 Test Module 2: N queens solution finder.
 """
 import unittest
-from subprocess import check_output
+from subprocess import check_output, CalledProcessError
 
 
 class TestNQueens(unittest.TestCase):
-    """Unittest for N Queens Solver
+    """
+    Unittests for N queens solution finder
     """
     def test_solve_nqueens(self):
         """Test case for N = 4
@@ -18,7 +19,6 @@ class TestNQueens(unittest.TestCase):
             [[0, 2], [1, 0], [2, 3], [3, 1]]
         ]
         self.assertListEqual(output_4, expected_4)
-
 
         """Test case for N = 6
         """
@@ -31,21 +31,23 @@ class TestNQueens(unittest.TestCase):
         ]
         self.assertListEqual(output_6, expected_6)
 
-
         """Test case for N = 1
         """
-        output_1 = self.run_program_with_input("1")
-        expected_1 = [[[0, 0]]]
-        self.assertListEqual(output_1, expected_1)
-
+        try:
+            output_1 = self.run_program_with_input("1")
+            expected_1 = [[[0, 0]]]
+            self.assertListEqual(output_1, expected_1)
+        except CalledProcessError as e:
+            self.fail(f"An error occurred while running the program for N = 1: {e}")
 
     def run_program_with_input(self, input_val):
         try:
             output = check_output(["./0-nqueens.py", input_val]).decode("utf-8").strip()
             return self.parse_output(output)
+        except CalledProcessError as e:
+            raise e
         except Exception as e:
             self.fail(f"An error occurred while running the program: {e}")
-
 
     def parse_output(self, output):
         solutions = []
