@@ -37,8 +37,10 @@ By studying these concepts and utilizing the resources provided, you will be equ
 **Test files:**
 - test-01-nqueens.py
 - test-02-nqueens.py
+
 **Test 1:**
 - ./0-nqueens.py 4
+
 **Test 2:**
 - ./0-nqueens.py 6
 
