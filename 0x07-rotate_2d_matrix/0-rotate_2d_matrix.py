@@ -4,9 +4,8 @@
 
 
 def rotate_2d_matrix(matrix):
-    """Rotates an m by n 2D matrix in place.
-    Parameters: matrix (list of list of int),
-    2D matrix to rotate.
+    """Rotates an m by n 2D matrix in place
+    using matrix (list of list of int)
     """
     if type(matrix) != list:
         return
