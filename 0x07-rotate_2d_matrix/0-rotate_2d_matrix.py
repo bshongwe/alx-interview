@@ -2,10 +2,10 @@
 """2D matrix rotation module.
 """
 
-def rotate_2d_matrix(matrix):
-    """Rotates an m by n 2D matrix in place using matrix (list of list of int)
-    """
 
+def rotate_2d_matrix(matrix):
+    """Rotates an m by n 2D matrix in place.
+    """
     if type(matrix) != list:
         return
     if len(matrix) <= 0:
