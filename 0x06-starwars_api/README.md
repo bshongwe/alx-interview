@@ -1,10 +1,10 @@
 # 0x06. Star Wars API 🌟
+`Algorithm` `API` `JavaScript`
+<br></br>
 ## Overview
-
 The **Star Wars Characters** project requires interaction with the Star Wars API to fetch and display information about characters from a specified movie. This is accomplished through the use of HTTP requests and asynchronous programming in JavaScript.
-
+<br></br>
 ## Key Concepts
-
 ### HTTP Requests in JavaScript 🌐
 - Making HTTP requests to external services using modules like `request` or `fetch` in Node.js.
 - **Resource:** [A Complete Guide to Making HTTP Requests in Node.js](https://nodejs.dev/learn/making-http-requests-with-nodejs)
@@ -26,9 +26,8 @@ The **Star Wars Characters** project requires interaction with the Star Wars API
 ### Array Manipulation and Iteration 🔄
 - Iterating over arrays and manipulating data structures to format and display character names.
 - **Resource:** [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-
+<br></br>
 ## Requirements
-
 ### General ⚙️
 - **Editors:** `vi`, `vim`, `emacs`
 - **Environment:** Ubuntu 20.04 LTS using Node.js (version 10.14.x)
@@ -41,7 +40,6 @@ The **Star Wars Characters** project requires interaction with the Star Wars API
 - **No `var` Usage:** Use `let` and `const` instead of `var`.
 
 ### Setup 🛠️
-
 #### Install Node 10
 ```bash
 $ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
@@ -58,9 +56,8 @@ $ sudo npm install semistandard --global
 $ sudo npm install request --global
 $ export NODE_PATH=/usr/lib/node_modules
 ```
-
+<br></br>
 ## Task
-
 ### 0. Star Wars Characters 🌠
 - **Objective:** Write a script that prints all characters of a specified Star Wars movie.
 - **Usage:** The first positional argument is the Movie ID (e.g., `3` for "Return of the Jedi").
