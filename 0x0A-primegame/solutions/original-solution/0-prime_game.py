@@ -2,6 +2,7 @@
 """Task 0. Prime Game module: Maria and Ben
 """
 
+
 def isWinner(x, nums):
     """Determines the winner of a prime game session with `x` rounds.
     """
