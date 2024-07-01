@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Prime game module
+"""Task 0. Prime Game module: Maria and Ben
 """
 
 
