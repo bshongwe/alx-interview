@@ -80,3 +80,10 @@ the winner of each game is.
 ```python
 def isWinner(x, nums)
 ```
+<br></br>
+
+#### Solutions
+See the [solutions](https://github.com/bshongwe/alx-interview/blob/master/0x0A-primegame/solutions/README.md) directory and documentation
+- [Alternative #0](https://github.com/bshongwe/alx-interview/tree/master/0x0A-primegame/solutions/original-solution)
+- [Alternative #1](https://github.com/bshongwe/alx-interview/tree/master/0x0A-primegame/solutions/solution-1)
+- [Alternative #2](https://github.com/bshongwe/alx-interview/tree/master/0x0A-primegame/solutions/solution-2)
